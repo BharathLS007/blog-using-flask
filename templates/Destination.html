@@ -1,0 +1,95 @@
+ <style>
+        /* Style for the image container */
+        .image-container {
+            position: relative;
+            display: inline-block;
+        }
+
+        /* Style for the image */
+        .image-container img {
+            width: 100%;
+            height: auto;
+        }
+
+        /* Style for the text overlay */
+        .image-text {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: rgba(0, 0, 0, 0.5);
+            color: white;
+            padding: 10px;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+    </style>
+ {% extends "base.html" %}
+
+{% block content %}
+
+   <center><h1>Destination & Country Guides</h1>
+   <h3>These are all of my destination & country guides to help you plan the</h3>
+   <h3>holiday of a lifetime!</h3>
+<br/>
+<p>If you’re looking for some advice, information or inspiration on where to go around the world then you’ve come to the right place!</p>
+
+<p>My site tagline is “capturing the world one destination at a time”, and here you can see all the destinations I’ve written about – I’ still got a lot to go!</p>
+<p>From discovering magical icebergs in Greenland to walking the cobbled streets of Cuba, I’ve been to so many different and varied</p>
+<p>places for An Adventurous World – some well-known and some completely off the beaten track.</p>
+<p>All of these blog posts are a mixture of destination guides, city guides, reviews on where to stay and what to do, all tied together</p>
+<p>with beautiful photography and videography.</p>
+       <h2>POPULAR DESTINATIONS</h2> </center>
+
+ <br/> <div class="image-container text-center">
+        <img src="static/images/Top-Countries-USA.jpg" alt="blog Image">
+        <div class="image-text">
+          <a href="/usa">usa</a>
+        </div>
+    </div>
+    <div class="image-container text-center">
+        <img src="static/images/Top-Countries-Uk.jpg" alt="blog Image">
+        <div class="image-text">
+           <a href="/uk">uk</a>
+        </div>
+    </div>
+     <div class="image-container text-center">
+        <img src="static/images/Top-Countries-cuba.jpg" alt="blog Image">
+        <div class="image-text">
+         <a href="/cuba">cuba</a>
+        </div>
+    </div>
+    <div class="image-container text-center">
+        <img src="static/images/Top-Countries-Canada.jpg" alt="blog Image">
+        <div class="image-text">
+         <a href="/canada">canada</a>
+        </div>
+    </div>
+     <div class="image-container text-center">
+        <img src="static/images/Top-Countries-chile.jpg" alt="blog Image">
+        <div class="image-text">
+          <a href="/chile">chile</a>
+        </div>
+    </div>
+    <div class="image-container text-center">
+        <img src="static/images/Top-Countries-Greenland.jpg" alt="blog Image">
+        <div class="image-text">
+         <a href="/Greenland">Greenland</a>
+        </div>
+    </div>
+    <div class="image-container text-center">
+        <img src="static/images/Top-Countries-Denmark.jpg" alt="blog Image">
+        <div class="image-text">
+           <a href="/Denmark">Denmark</a>
+        </div>
+    </div>
+    <div class="image-container text-center">
+        <img src="static/images/Top-Countries-Mexico.jpg" alt="blog Image">
+        <div class="image-text">
+           <a href="/Mexico">Mexico</a>
+        </div>
+    </div>
+
+
+{% endblock %}

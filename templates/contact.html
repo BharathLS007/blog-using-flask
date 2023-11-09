@@ -1,0 +1,35 @@
+
+{% extends "base.html" %}
+
+{% block content %}
+<center><h3>Get in touch with An Adventurous</h3>
+<center><h3>World</h3></center>
+<p>Whether it’s via email or on social media, I absolutely love hearing from you!</p>
+<p>At the end of the day, this site would be nothing without you guys, so if there’s</p>
+<p>ever anything I can do for you then just let me know!</p>
+<p>If you’re looking for advice on where to go, encouragement on why you should</p>
+<p>travel, or perhaps you just fancy a chat, then fire across an email and I’ll do my</p>
+<p>best to get back to you as soon as I can.</p>
+<p>As I said, I always love hearing from you, so send me an email and let’s chat!</p>
+<p>Alternatively, you can connect with me on social media:</p></center>
+
+<link rel="stylesheet" href="static/css/s.css">
+
+<ul class="social-icons">
+ <li><a href="https://www.facebook.com/"><img src="static/images/f.png" alt="Facebook logo" width="30" height="30"></a></li>
+ <li> <a href="https://www.linkedin.com/"><img src="static/images/l.png" alt="Linkedin logo" width="30" height="30"></a></li>
+ <li> <a href="https://www.instagram.com/"><img src="static/images/i.jpeg" alt="Instagram logo" width="30" height="30"></a></li>
+ <li> <a href="https://www.twitter.com/"><img src="static/images/t.png" alt="Twitter logo" width="30" height="30"></a></li>
+</ul>
+
+  <link rel="stylesheet" href="static/css/style1.css">
+  <form id="submission_form" action="#">
+  <input type="text" name="first_name" placeholder="First Name">
+  <input type="text" name="last_name" placeholder="Last Name">
+  <input type="email" name="email" placeholder="Email Address">
+  <input type="text" name="subject" placeholder="Subject">
+  <textarea name="comment" placeholder="Comment"></textarea>
+  <input type="submit" value="Submit">
+</form>
+
+{% endblock %}
